@@ -15,74 +15,92 @@ $(function() {
     Calculator = new function() {
         Mousetrap.bind('0', function() {
             $('#button0').trigger('mousedown');
+            return false;
         });
 
         Mousetrap.bind('1', function() {
             $('#button1').trigger('mousedown');
+            return false;
         });
 
         Mousetrap.bind('2', function() {
             $('#button2').trigger('mousedown');
+            return false;
         });
 
         Mousetrap.bind('3', function() {
             $('#button3').trigger('mousedown');
+            return false;
         });
 
         Mousetrap.bind('4', function() {
             $('#button4').trigger('mousedown');
+            return false;
         });
 
         Mousetrap.bind('5', function() {
             $('#button5').trigger('mousedown');
+            return false;
         });
 
         Mousetrap.bind('6', function() {
             $('#button6').trigger('mousedown');
+            return false;
         });
 
         Mousetrap.bind('7', function() {
             $('#button7').trigger('mousedown');
+            return false;
         });
 
         Mousetrap.bind('8', function() {
             $('#button8').trigger('mousedown');
+            return false;
         });
 
         Mousetrap.bind('9', function() {
             $('#button9').trigger('mousedown');
+            return false;
         });
 
         Mousetrap.bind('.', function() {
             $('#buttondot').trigger('mousedown');
+            return false;
         });
 
         Mousetrap.bind('+', function() {
             $('#buttonadd').trigger('mousedown');
+            return false;
         });
 
         Mousetrap.bind('-', function() {
             $('#buttonsubtract').trigger('mousedown');
+            return false;
         });
 
         Mousetrap.bind('backspace', function() {
             $('#buttondelete').trigger('mousedown');
+            return false;
         });
 
         Mousetrap.bind('enter', function() {
             $('#buttonequal').trigger('mousedown');
+            return false;
         });
 
         Mousetrap.bind('c', function() {
             $('#buttonclear').trigger('mousedown');
+            return false;
         });
 
         Mousetrap.bind('*', function() {
             $('#buttonmultiply').trigger('mousedown');
+            return false;
         });
 
         Mousetrap.bind('/', function() {
             $('#buttondivide').trigger('mousedown');
+            return false;
         });
 
         this.localizer = null;
