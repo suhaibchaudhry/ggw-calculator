@@ -1,0 +1,14 @@
+{
+  "name": "peg-0.7.0.min",
+  "_cacheHeaders": {
+    "ETag": "\"c070974485aa377f847cb08390397b3b\"",
+    "Last-Modified": "Wed, 18 Apr 2012 11:05:56 GMT",
+    "Content-Length": "45888",
+    "Content-Type": ".js"
+  },
+  "_release": "e-tag:c07097448",
+  "main": "index.js",
+  "_source": "http://cloud.github.com/downloads/dmajda/pegjs/peg-0.7.0.min.js",
+  "_target": "*",
+  "_originalSource": "http://cloud.github.com/downloads/dmajda/pegjs/peg-0.7.0.min.js"
+}
